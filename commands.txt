@@ -1,0 +1,7 @@
+1. Python should be installed
+2. pip install virtualenv
+3. virtualenv env
+4. .\env\Scripts\activate
+5. pip install pandas
+6. pip install openpyxl
+7. python index.py
