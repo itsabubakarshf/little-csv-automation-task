@@ -34,7 +34,7 @@ output_path = os.path.join(output_directory_path, "consolidated_data.xlsx")
 final_data.to_excel(output_path, index=False)
 
 
-summary_wb = openpyxl.load_workbook('Files/summary.xlsx')
+summary_wb = openpyxl.load_workbook('Files/summary_selections_AG388c_FullTest_NoAlts_V2.xlsx')
 consolidated_wb = openpyxl.load_workbook('Files/consolidated_data.xlsx')
 
 summary_ws = summary_wb['Sheet1']
